@@ -1,0 +1,29 @@
+/* Remove default bullets */
+ul {
+  list-style-type: none;
+}
+
+.caret {
+  cursor: pointer;
+  user-select: none;
+}
+
+.caret::before {
+  content: "\25B6";
+  color: black;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.caret-down::before {
+  transform: rotate(90deg);  
+}
+
+.nested{
+  cursor: pointer;
+  display: none;
+}
+
+.active{
+  display: block;
+}

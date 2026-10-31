@@ -1,0 +1,42 @@
+tab { padding-left: 2em; }
+
+html, body {
+	margin:0;
+	height:100%;
+}
+
+body {
+	display : flex;
+}
+
+.menu-container {
+   width:20vw;
+	height:auto;
+	vertical-align: top;
+	border:2px solid blue;
+	border-collapse: collapse;
+}
+
+.main-container {
+   width:70vw;
+	height:100%;
+	border:2px solid blue;
+	border-collapse: collapse;
+	background-image: url("../img/bibliotheque2.jpg");
+}
+
+.sub-menu-add {
+   display:none;
+}
+
+.custom-menu-root {
+  cursor: pointer;
+}
+
+.custom-menu-items {
+  cursor: pointer;
+}
+
+.custom-menu-links {
+  cursor: pointer;
+}
